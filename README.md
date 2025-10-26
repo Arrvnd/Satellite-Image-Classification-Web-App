@@ -1,10 +1,10 @@
-🛰️ Satellite Image Preprocessing & Classification Dataset Builder
-📘 Project Overview
+# 🛰️ Satellite Image Preprocessing & Classification Dataset Builder
+### 📘 Project Overview
 
 This project focuses on preprocessing satellite imagery for machine learning tasks such as land classification or cloud detection.
 The notebook processes raw satellite images from multiple folders (e.g., cloudy, desert, etc.), resizes them to a uniform shape, converts them into numerical arrays, and compiles them into a structured Pandas DataFrame ready for model training.
 
-🧩 Key Features
+### 🧩 Key Features
 
 Loads and processes satellite images from multiple categories.
 
@@ -16,7 +16,7 @@ Combines all images into a single labeled dataset for machine learning models.
 
 Easily extendable to include new categories or apply additional transformations.
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 Python 3.x
 
@@ -30,7 +30,7 @@ Pillow (PIL)
 
 Matplotlib (for visualization)
 
-🔮 Future Enhancements
+### 🔮 Future Enhancements
 
 Automate dataset splitting (train/test/validation)
 
@@ -40,7 +40,7 @@ Integrate CNN model training (TensorFlow/PyTorch)
 
 Implement feature extraction using pre-trained models (e.g., VGG16, ResNet)
 
-📊 Output
+### 📊 Output
 
 After successful execution, a DataFrame will be created where:
 
