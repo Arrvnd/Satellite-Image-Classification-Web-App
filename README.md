@@ -4,6 +4,8 @@
 This project focuses on preprocessing satellite imagery for machine learning tasks such as land classification or cloud detection.
 The notebook processes raw satellite images from multiple folders (e.g., cloudy, desert, etc.), resizes them to a uniform shape, converts them into numerical arrays, and compiles them into a structured Pandas DataFrame ready for model training.
 
+## link - https://huggingface.co/spaces/Arrvind/satellite_image_classifier
+
 ### 🧩 Key Features
 
 Loads and processes satellite images from multiple categories.
